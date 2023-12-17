@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "erc20-snapshot", "erc20-snapshot.csproj", "{777798E3-DC5E-400A-97B4-4E48ABB607CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Erc20Snapshot.Chain", "..\Erc20Snapshot.Chain\Erc20Snapshot.Chain.csproj", "{A7B49090-7534-4680-B81F-688B79CE0CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erc20Snapshot.Repository", "..\Erc20Snapshot.Repository\Erc20Snapshot.Repository.csproj", "{B7D5BC78-A114-4FD0-929F-5394648E0231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERC20Snapshot.Media", "..\ERC20Snapshot.Media\ERC20Snapshot.Media.csproj", "{DCBD64E3-869F-433F-824A-0CCD519338CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{777798E3-DC5E-400A-97B4-4E48ABB607CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777798E3-DC5E-400A-97B4-4E48ABB607CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777798E3-DC5E-400A-97B4-4E48ABB607CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777798E3-DC5E-400A-97B4-4E48ABB607CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B49090-7534-4680-B81F-688B79CE0CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B49090-7534-4680-B81F-688B79CE0CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B49090-7534-4680-B81F-688B79CE0CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B49090-7534-4680-B81F-688B79CE0CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D5BC78-A114-4FD0-929F-5394648E0231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D5BC78-A114-4FD0-929F-5394648E0231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D5BC78-A114-4FD0-929F-5394648E0231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D5BC78-A114-4FD0-929F-5394648E0231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCBD64E3-869F-433F-824A-0CCD519338CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBD64E3-869F-433F-824A-0CCD519338CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBD64E3-869F-433F-824A-0CCD519338CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBD64E3-869F-433F-824A-0CCD519338CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E1C25C2-71DF-4463-85AD-32A84351DBCA}
+	EndGlobalSection
+EndGlobal

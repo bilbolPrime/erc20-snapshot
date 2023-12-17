@@ -1,0 +1,6 @@
+@erc20_snapshot_HostAddress = http://localhost:5154
+
+GET {{erc20_snapshot_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
